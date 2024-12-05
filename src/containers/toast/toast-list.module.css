@@ -1,0 +1,25 @@
+.toast_container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.toast_item {
+  width: 200px;
+  padding: 8px;
+  border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  color: white;
+  font-size: 13px;
+}

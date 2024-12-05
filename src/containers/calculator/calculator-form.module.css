@@ -1,0 +1,24 @@
+.form_container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.flex_box {
+  display: flex;
+  gap: 12px;
+}
+
+.container_item {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  border-bottom: 2px solid var(--gray-200);
+}
+
+.container_item > input {
+  padding: 12px 4px;
+}

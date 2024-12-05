@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Parkinsans", "Noto Sans KR", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+:root {
+  --white: #fff;
+  --black: #000;
+  --boxShadow: 0px 6px 8px -6px #718096;
+
+  --bgColor: #edf2f7;
+  --btnBgColor: #edf2f7;
+
+  --gray-100: #edf2f7;
+  --gray-200: #e2e8f0;
+  --gray-300: #cbd5e0;
+  --gray-400: #a0aec0;
+  --gray-500: #718096;
+  --gray-600: #4a5568;
+  --gray-700: #2d3748;
+
+  --red: #e53e3e;
+  --green: #38a169;
+}
+
+:root.dark {
+  --bgColor: #000;
+  --btnBgColor: #4a5568;
+  --boxShadow: 0px 6px 8px -6px #edf2f7;
+
+  --white: #000;
+  --black: #fff;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: none;
+  background-color: var(--btnBgColor);
+  transition: all 0.3s;
+  color: var(--black);
+}
+
+button:hover {
+  box-shadow: var(--boxShadow);
+}
+
+input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+
+  color: var(--black);
+}
