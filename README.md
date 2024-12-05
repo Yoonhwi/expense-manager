@@ -32,3 +32,7 @@ yarn 또는 npm install  의존성 패키지 설치 후,
 ```
 yarn dev 또는 npm run dev 실행합니다.
 ```
+
+### 영상
+
+![GOMCAM20241206_0804410319-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/628e6174-0edb-4584-9f8b-d9031beb49bd)
